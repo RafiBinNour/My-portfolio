@@ -7,10 +7,13 @@
     font-size: 1.25em;
     color:white ;
 }
+.text-color{
+     color: #868484;
+}
 .text-center{
     text-align: center;
 }
-.skill-icon{
+.skill-icon ,.icon{
     height: 50px;
     width: 50px;
 }
@@ -172,10 +175,11 @@ button:hover{
  /* resume section styles */
 
  .resume{
-    margin: 80px 0;
+    margin: 80px 30px;
  }
  .resume-column{
     margin: 0 20px;
+    padding: 20px;
  }
  .resume-container{
     display:flex;
@@ -184,3 +188,38 @@ button:hover{
     margin: 0 150px;
 
  }
+
+ .btn-primary{
+    align-items: center;
+ }
+
+ /* Footer styles */
+ footer{
+    background-color:rgb(254, 240, 222);
+    
+ }
+
+ .footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 0;
+
+
+ }
+
+ .footer-column{
+    margin: 20px;
+ }
+.form-container input[type="text"],.form-container input[type="email"],.footer-container textarea{
+    display: block  ;
+    height: 64px;
+    width: 160%;
+    border-radius: 5px;
+    border: none;
+    margin:20px 0;
+    font-size: larger;
+    padding: 10PX;
+
+}
+
